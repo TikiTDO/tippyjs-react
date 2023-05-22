@@ -2,7 +2,7 @@
   "name": "@tippyjs/react",
   "version": "4.2.5",
   "description": "React component for Tippy.js",
-  "main": "src/main.js",
+  "main": "src/index.js",
   "types": "index.d.ts",
   "sideEffects": false,
   "scripts": {
