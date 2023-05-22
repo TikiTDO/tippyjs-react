@@ -129,6 +129,7 @@ export default function useSingletonGenerator(createSingleton) {
           );
 
           if (mutableBox.instance && !mutableBox.instance.state.isDestroyed) {
+            mutableBox.instance.unmount();
             mutableBox.instance.setInstances(
               mutableBox.children.map(child => child.instance),
             );
